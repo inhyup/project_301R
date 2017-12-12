@@ -2,7 +2,7 @@
 var cartsDataArray; 
 
 
-getJson("js/json/generated.json", function(generated){
+getJson("js/json/data.json", function(generated){
   cartsDataArray = generated;
   createItem(cartsDataArray);
 });
