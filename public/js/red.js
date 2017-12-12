@@ -113,7 +113,7 @@ function scroll(){
   console.log(scrollTop, windowHeight, documentHeight);
   if (scrollTop > documentHeight - windowHeight - 50) {
     console.log('load')
-    getJson("js/json/generated.json", function(generated){
+    getJson("js/json/data.json", function(generated){
       cartsDataArray = cartsDataArray.concat(generated);
       createItem(cartsDataArray);
     });
