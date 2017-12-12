@@ -1,6 +1,6 @@
 [
   {
-    "title": "Dentist",
+    "title": "Dental Care",
     "discount": 39,
     "priceOld": 180,
     "priceNew": 109.8,
@@ -9,7 +9,7 @@
     "dateFrom": "2017-11-21T03:29:16 +03:00",
     "dateTo": "2017-12-25T22:27:14 +03:00",
     "type": "beauty",
-    "image": "img/photo-4.jpg"
+    "image": "img/dental.jpg"
   },
   {
     "title": "BYU Football",
@@ -21,7 +21,7 @@
     "dateFrom": "2017-07-26T10:35:00 +03:00",
     "dateTo": "2017-11-07T18:02:54 +03:00",
     "type": "entertainment",
-    "image": "img/photo-7.jpg"
+    "image": "img/byufootball.jpg"
   },
   {
     "title": "CafeRio",
@@ -33,7 +33,7 @@
     "dateFrom": "2017-11-26T10:35:00 +03:00",
     "dateTo": "2018-01-07T18:02:54 +03:00",
     "type": "food",
-    "image": "img/photo-3.jpg"
+    "image": "img/cafe-rio.jpg"
   },
   {
     "title": "BYU Volleyball",
@@ -45,7 +45,7 @@
     "dateFrom": "2017-11-23T10:35:00 +03:00",
     "dateTo": "2017-12-07T18:02:54 +03:00",
     "type": "entertainment",
-    "image": "img/photo-7.jpg"
+    "image": "img/volleyball.jpg"
   },
   {
     "title": "Fast Cart",
@@ -57,7 +57,7 @@
     "dateFrom": "2017-10-26T10:35:00 +03:00",
     "dateTo": "2018-01-31T18:02:54 +03:00",
     "type": "entertainment",
-    "image": "img/photo-7.jpg"
+    "image": "img/fastcart.jpg"
   },
   {
     "title": "Haunted Forest",
@@ -69,7 +69,7 @@
     "dateFrom": "2017-10-18T10:35:00 +03:00",
     "dateTo": "2017-10-31T18:02:54 +03:00",
     "type": "entertainment",
-    "image": "img/photo-7.jpg"
+    "image": "img/haunted_forest.jpg"
   },
   {
     "title": "Enterprise",
@@ -81,10 +81,10 @@
     "dateFrom": "2017-12-18T10:35:00 +03:00",
     "dateTo": "2018-01-05T18:02:54 +03:00",
     "type": "travel",
-    "image": "img/photo-7.jpg"
+    "image": "img/car_rent.jpg"
   },
   {
-    "title": "Apple sale",
+    "title": "Apple MacBook Pro",
     "discount": 19,
     "priceOld": 2499.99,
     "priceNew": 2024.99,
@@ -93,6 +93,6 @@
     "dateFrom": "2017-12-01T10:35:00 +03:00",
     "dateTo": "2018-01-05T18:02:54 +03:00",
     "type": "education",
-    "image": "img/photo-7.jpg"
+    "image": "img/macbook.jpg"
   }
 ]
