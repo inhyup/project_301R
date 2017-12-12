@@ -781,11 +781,12 @@ a {
     font-size: 18px;
     text-transform: uppercase;
     float: left;
-    width: 150px;
+    width: 100px;
     line-height: 27px; }
   .catalog_sort__item {
     display: inline-block;
     vertical-align: middle;
+    font-size: 13px;
     padding: 2px 4px;
     margin-right: 10px; }
     .catalog_sort__item:last-child {

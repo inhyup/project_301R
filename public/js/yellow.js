@@ -18,9 +18,24 @@ function getJson(url, callback){
 }
 
 document.querySelector('.catalog_sort__item--price').addEventListener('click', sortPrice); 
+document.querySelector('.catalog_sort__item--price1').addEventListener('click', sortPrice1); 
 document.querySelector('.catalog_sort__item--discount').addEventListener('click', sortDiscount);
+document.querySelector('.catalog_sort__item--discount1').addEventListener('click', sortDiscount1);
 
 function sortPrice(e) {
+  e.preventDefault();
+  cartsDataArray.sort(function(a, b){
+    if (a.priceNew<b.priceNew){
+      return 1;
+    } else {
+      return -1;
+    }
+  });
+  createItem(cartsDataArray);
+  filterFunctions();
+}
+
+function sortPrice1(e) {
   e.preventDefault();
   cartsDataArray.sort(function(a, b){
     if (a.priceNew>b.priceNew){
@@ -37,6 +52,19 @@ function sortDiscount(e){
   e.preventDefault();
   cartsDataArray.sort(function(a, b){
     if (a.discount<b.discount){
+      return 1;
+    }else{
+      return -1;
+    }
+  });
+  createItem(cartsDataArray);  
+  filterFunctions();
+}
+
+function sortDiscount1(e){
+  e.preventDefault();
+  cartsDataArray.sort(function(a, b){
+    if (a.discount>b.discount){
       return 1;
     }else{
       return -1;
