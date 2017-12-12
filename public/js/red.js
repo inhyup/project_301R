@@ -103,7 +103,7 @@ function hideSuccess() {
 
 
 
-/* 13. scroll */
+/* 
 window.addEventListener('scroll', scroll);
 
 function scroll(){
@@ -121,3 +121,5 @@ function scroll(){
   }
 
 }
+
+*/

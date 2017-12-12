@@ -17,10 +17,10 @@
     "priceOld": 198,
     "priceNew": 91.1,
     "special": true,
-    "metro": "admiralteiskaya",
+    "metro": "provo",
     "dateFrom": "2017-07-26T10:35:00 +03:00",
     "dateTo": "2017-11-07T18:02:54 +03:00",
-    "type": "orem",
+    "type": "entertainment",
     "image": "img/photo-7.jpg"
   }
 ]
