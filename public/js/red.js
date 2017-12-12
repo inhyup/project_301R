@@ -50,11 +50,6 @@ personEmail.addEventListener('change', function(){
 
 
 
-
-
-
-
-/* 12. отправка формы */
 var modalOrder = document.querySelector('.modal_order');
 var modalSuccess = document.querySelector('.modal_success');
 var modalUnderlay = document.querySelector('.modal_underlay');
