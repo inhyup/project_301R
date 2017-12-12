@@ -30,19 +30,19 @@ function updateStatus(el, isValid, message){
 personName.addEventListener('change', function(){
   var nameRegExp = /^.+$/;
   var isValid = nameRegExp.test(personName.value);
-  var messageText = "Заполните поле";
+  var messageText = "Please enter name";
   updateStatus(personName, isValid, messageText);
 });
 personTel.addEventListener('change', function(){
   var telRegExp = /\d+/;
   var isValid = telRegExp.test(personTel.value);
-  var messageText = "Телефон должен содержать хотя бы одну цифру";
+  var messageText = "Phone number must contain at least one number";
   updateStatus(personTel, isValid, messageText);
 });
 personEmail.addEventListener('change', function(){
   var emailRegExp = /^.+@.+\..+$/;
   var isValid = emailRegExp.test(personEmail.value);
-  var messageText = "Email должен содержать символы @ и .";
+  var messageText = "Please include @ in the email address(example@example.com)";
   updateStatus(personEmail, isValid, messageText);
 });
 

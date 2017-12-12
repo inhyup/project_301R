@@ -1,9 +1,9 @@
 [
   {
     "title": "Dentist",
-    "discount": 59,
-    "priceOld": 27,
-    "priceNew": 11.1,
+    "discount": 39,
+    "priceOld": 180,
+    "priceNew": 109.8,
     "special": true,
     "metro": "orem",
     "dateFrom": "2017-11-21T03:29:16 +03:00",
@@ -13,14 +13,86 @@
   },
   {
     "title": "BYU Football",
-    "discount": 54,
-    "priceOld": 198,
-    "priceNew": 91.1,
+    "discount": 30,
+    "priceOld": 30,
+    "priceNew": 21,
     "special": true,
     "metro": "provo",
     "dateFrom": "2017-07-26T10:35:00 +03:00",
     "dateTo": "2017-11-07T18:02:54 +03:00",
     "type": "entertainment",
+    "image": "img/photo-7.jpg"
+  },
+  {
+    "title": "CafeRio",
+    "discount": 15,
+    "priceOld": 10,
+    "priceNew": 8.5,
+    "special": false,
+    "metro": "provo",
+    "dateFrom": "2017-11-26T10:35:00 +03:00",
+    "dateTo": "2018-01-07T18:02:54 +03:00",
+    "type": "food",
+    "image": "img/photo-3.jpg"
+  },
+  {
+    "title": "BYU Volleyball",
+    "discount": 22,
+    "priceOld": 25,
+    "priceNew": 19.5,
+    "special": true,
+    "metro": "provo",
+    "dateFrom": "2017-11-23T10:35:00 +03:00",
+    "dateTo": "2017-12-07T18:02:54 +03:00",
+    "type": "entertainment",
+    "image": "img/photo-7.jpg"
+  },
+  {
+    "title": "Fast Cart",
+    "discount": 28,
+    "priceOld": 62,
+    "priceNew": 44.6,
+    "special": false,
+    "metro": "orem",
+    "dateFrom": "2017-10-26T10:35:00 +03:00",
+    "dateTo": "2018-01-31T18:02:54 +03:00",
+    "type": "entertainment",
+    "image": "img/photo-7.jpg"
+  },
+  {
+    "title": "Haunted Forest",
+    "discount": 28,
+    "priceOld": 62,
+    "priceNew": 44.6,
+    "special": true,
+    "metro": "orem",
+    "dateFrom": "2017-10-18T10:35:00 +03:00",
+    "dateTo": "2017-10-31T18:02:54 +03:00",
+    "type": "entertainment",
+    "image": "img/photo-7.jpg"
+  },
+  {
+    "title": "Enterprise",
+    "discount": 19,
+    "priceOld": 250,
+    "priceNew": 202.5,
+    "special": true,
+    "metro": "orem",
+    "dateFrom": "2017-12-18T10:35:00 +03:00",
+    "dateTo": "2018-01-05T18:02:54 +03:00",
+    "type": "travel",
+    "image": "img/photo-7.jpg"
+  },
+  {
+    "title": "Apple sale",
+    "discount": 19,
+    "priceOld": 2499.99,
+    "priceNew": 2024.99,
+    "special": true,
+    "metro": "provo",
+    "dateFrom": "2017-12-01T10:35:00 +03:00",
+    "dateTo": "2018-01-05T18:02:54 +03:00",
+    "type": "education",
     "image": "img/photo-7.jpg"
   }
 ]
