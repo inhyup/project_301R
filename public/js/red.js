@@ -1,4 +1,4 @@
-/* 11. валидация формы */
+
 var modalForm = document.querySelector('.modal__form');
 var personName = document.querySelector('.input__name');
 var personTel = document.querySelector('.input__phone');
@@ -56,8 +56,10 @@ var modalUnderlay = document.querySelector('.modal_underlay');
 var modalBtn = document.querySelector('.modal .btn');
 var loader = document.querySelector('.loader');
 
+var contactBtn = document.querySelector('contact_btn');
 
 modalBtn.addEventListener('click', checkFields);
+contactBtn.addEventListener('click', checkFields);
 
 function checkFields(e) {
   e.preventDefault();
