@@ -56,7 +56,11 @@ var modalUnderlay = document.querySelector('.modal_underlay');
 var modalBtn = document.querySelector('.modal .btn');
 var loader = document.querySelector('.loader');
 
+var contactBtn = document.querySelector('contact_btn');
+contactBtn.addEventListener('click', checkFields);
+
 modalBtn.addEventListener('click', checkFields);
+
 
 function checkFields(e) {
   e.preventDefault();
